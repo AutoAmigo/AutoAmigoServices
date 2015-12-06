@@ -1,0 +1,33 @@
+{
+  "name": "pickmupSchedule",
+  "plural": "pckmupSchedules",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Departure_Time": {
+      "type": "string",
+      "required": true
+    },
+    "Arrival_Time": {
+      "type": "string",
+      "required": true
+    },
+    "Days": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "pckmupTrip": {
+      "type": "belongsTo",
+      "model": "pckmupTrip",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

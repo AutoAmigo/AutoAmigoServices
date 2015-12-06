@@ -1,0 +1,35 @@
+{
+  "name": "pckmupTrip",
+  "plural": "pckmupTrips",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "TripName": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "pckmupUser": {
+      "type": "belongsTo",
+      "model": "pckmupUser",
+      "foreignKey": ""
+    },
+    "pckmupRoutes": {
+      "type": "hasOne",
+      "model": "pckmupRoute",
+      "foreignKey": ""
+    },
+    "pickmupSchedules": {
+      "type": "hasMany",
+      "model": "pickmupSchedule",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

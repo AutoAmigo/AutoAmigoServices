@@ -1,0 +1,21 @@
+{
+  "name": "pckmupRoute",
+  "plural": "pckmupRoutes",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "LatLng": {
+      "type": [
+        "geopoint"
+      ],
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

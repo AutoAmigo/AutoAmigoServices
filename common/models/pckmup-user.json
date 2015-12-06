@@ -1,0 +1,40 @@
+{
+  "name": "pckmupUser",
+  "plural": "pckmupUsers",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "FirstName": {
+      "type": "string",
+      "required": true
+    },
+    "LastName": {
+      "type": "string",
+      "required": true
+    },
+    "BirthDay": {
+      "type": "date",
+      "required": true
+    },
+    "UserName": {
+      "type": "string",
+      "required": true
+    },
+    "Institution": {
+      "type": "string"
+    },
+    "Handicap": {
+      "type": "string"
+    },
+    "AboutMe": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
