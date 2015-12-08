@@ -2,5 +2,14 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "MongoSource": {
+    "name": "MongoSource",
+    "connector": "mongodb",
+    "host": "ds061454.mongolab.com",
+    "port": 61454,
+    "database": "pickmeup_db",
+    "user": "pckmup_admin",
+    "password": "autoamigo"
   }
 }

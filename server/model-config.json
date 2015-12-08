@@ -14,38 +14,38 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "MongoSource"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "MongoSource",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "MongoSource",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "MongoSource",
     "public": false
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "MongoSource",
     "public": false
   },
   "pckmupUser": {
-    "dataSource": "db",
+    "dataSource": "MongoSource",
     "public": true
   },
   "pckmupRoute": {
-    "dataSource": "db",
+    "dataSource": "MongoSource",
     "public": true
   },
   "pickmupSchedule": {
-    "dataSource": "db",
+    "dataSource": "MongoSource",
     "public": true
   },
   "pckmupTrip": {
-    "dataSource": "db",
+    "dataSource": "MongoSource",
     "public": true
   },
   "tempUser": {

@@ -1,5 +1,5 @@
 module.exports = function(app) {
-
+/*
   var User = app.models.pckmupUser;
   var Role = app.models.Role;
   var RoleMapping = app.models.RoleMapping;
@@ -30,5 +30,5 @@ module.exports = function(app) {
       });
     });
   });
-
+*/
 };
