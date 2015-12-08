@@ -47,5 +47,9 @@
   "pckmupTrip": {
     "dataSource": "db",
     "public": true
+  },
+  "tempUser": {
+    "dataSource": "db",
+    "public": true
   }
 }

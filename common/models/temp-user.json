@@ -1,7 +1,7 @@
 {
-  "name": "pckmupUser",
-  "plural": "pckmupUsers",
-  "base": "User",
+  "name": "tempUser",
+  "plural": "tempUsers",
+  "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
@@ -19,7 +19,15 @@
       "type": "date",
       "required": true
     },
+    "Email": {
+      "type": "string",
+      "required": true
+    },
     "UserName": {
+      "type": "string",
+      "required": true
+    },
+    "Password": {
       "type": "string",
       "required": true
     },
@@ -35,19 +43,6 @@
   },
   "validations": [],
   "relations": {},
-  "acls": [
-    {
-      "accessType": "EXECUTE",
-      "principalType": "ROLE",
-      "principalId": "$owner",
-      "permission": "ALLOW"
-    },
-    {
-      "accessType": "READ",
-      "principalType": "ROLE",
-      "principalId": "admin",
-      "permission": "ALLOW"
-    }
-  ],
+  "acls": [],
   "methods": {}
 }
