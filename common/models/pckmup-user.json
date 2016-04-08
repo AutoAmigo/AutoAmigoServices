@@ -19,10 +19,6 @@
       "type": "date",
       "required": true
     },
-    "UserName": {
-      "type": "string",
-      "required": true
-    },
     "Institution": {
       "type": "string"
     },
